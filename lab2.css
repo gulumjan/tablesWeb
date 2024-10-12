@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 20px;
+}
+
+.task1 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.task1 caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+.task1 th,
+.task1 td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.task1 th {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.task1 td img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.task1 tr:nth-child(even) {
+  background-color: #eeffda;
+}
+
+.task1 tr:nth-child(odd) {
+  background-color: #8fadf7;
+}
+
+.task1 .total {
+  background-color: #4caf50;
+  color: white;
+  text-align: right;
+  font-weight: bold;
+}
+
+.task1 .total-value {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+}
+
+/*Task 1*/
+
+/*Task 2*/
+
+.task2 table {
+  border-collapse: collapse;
+}
+.task2 td {
+  border: 1px solid black;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  color: darkblue;
+  font-size: 33px;
+}
+
+.task3 {
+  display: flex;
+  margin-top: 78px;
+  gap: 30px;
+}
+
+.task3 table {
+  width: 6%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.task3 td {
+  border: 1px solid #000;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.task4 table {
+  width: 400px;
+}
+td.green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+td.red {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+td.blue {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
